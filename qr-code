@@ -1,0 +1,70 @@
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with-divice-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet"> 
+    <title>qr-code</title>    
+    <style> 
+    body{ 
+     margin:0;
+     padding:0;
+     
+    }
+    .background{ 
+      background-color: hsl(212, 45%, 89%);
+      width:100%;
+      height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 4px;
+    }
+    .qr{ 
+        background-color: hsl(0, 0%, 100%);
+        width:330px;
+        height: 68%; 
+        border-radius: 20px;
+        box-shadow: 3px 2px 5px rgb(214, 214, 221)
+    }
+    .qr img{
+        margin: 5%;
+         width: 90%;
+         height: 57%;
+         border-radius: 13px;
+
+    }
+
+    h3{ 
+     margin: 5%;
+    font-weight: 700;
+    text-align: center;
+    }
+    p{   margin: 5%;
+        font-size: 15px;
+        font-weight:400;
+        text-align: center;
+        color: rgba(70, 69, 69, 0.8);
+    }
+@media(max-width: 375px){ 
+  .qr{
+    width: 325px;
+     
+}
+}
+    </style> 
+</head>
+<body> 
+    <div class="background">
+        <div class="qr">
+    <img src="C:/Users/karyn/AppData/Local/Temp/86c7f6f9-c95e-4303-84be-47b72b7c6d7d_qr-code-component-main (1).zip.d7d/qr-code-component-main/images/image-qr-code.png">
+   <h3>Improve your front-end skills by building projects</h3>
+   <p>Scan the QR-code to vist Frontend Mentor and take your coding skills to the next level</p>
+</div>
+    </div> 
+</body>
+
+</html>
